@@ -1,0 +1,35 @@
+DAY 1 – DATA QUALITY SUMMARY
+
+Project: Mutual Fund Data Analysis
+
+1. Data Ingestion
+- Successfully loaded all provided CSV datasets using Pandas.
+- Dataset structure verified using shape, data types and first five rows.
+
+2. fund_master.csv
+- Total Rows: 40
+- Total Columns: 15
+- Missing Values: 0
+- Duplicate Rows: 0
+
+3. NAV History Validation
+- AMFI Code Column: amfi_code
+- Total Fund Master Codes: 40
+- Total NAV History Codes: 40
+- Missing Codes: 0
+
+4. API Integration
+- Successfully fetched live NAV data from mfapi.in.
+- Downloaded NAV history for:
+  • HDFC Top 100
+  • SBI Bluechip
+  • ICICI Bluechip
+  • Nippon Large Cap
+  • Axis Bluechip
+  • Kotak Bluechip
+
+5. Overall Observation
+- No missing values detected in fund_master.csv.
+- No duplicate records detected.
+- All AMFI codes are present in nav_history.csv.
+- Data quality is good and suitable for further analysis.
